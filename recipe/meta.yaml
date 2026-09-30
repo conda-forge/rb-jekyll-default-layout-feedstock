@@ -1,5 +1,5 @@
 {% set name = "jekyll-default-layout" %}
-{% set version = "0.1.4" %}
+{% set version = "0.2.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 7d128fc8972353370cdf22beb1610434421c732d707ba4c77513d65941bb3f01
+  sha256: 358af41f82ce8da7abcdec820831afaea990f1a31eda8c5e6b393b4e1a2485fd
 
 build:
   noarch: generic
